@@ -42,3 +42,31 @@ can rent or lease these resources from cloud service providers such as AWS,Azure
 
 In contrast, by running your application in the cloud, you can replicate an entire production environment in a matter of minutes or even seconds. Instead of physically installing hardware and connecting cabling, the solution is managed over the internet.
 
+## AWS
+- Amazon Web Services (AWS) is a leading cloud computing platform provided by Amazon.com,offering a wide range of cloud-based computing resources and services globally.
+
+## AWS Global infrastructure
+- AWS operates an extensive global network of data centers, known as Availability Zones, and Points of Presence (PoPs) strategically positioned worldwide. This network is designed to deliver cloud services with low-latency, high-speed, and fault-tolerant capabilities.
+
+## Availability zones(AZ)
+- A data center or a collection of data centers within an AWS region whose purpose of is to provide fault tolerance and high availability for applications and services hosted on AWS
+
+## Regions
+- AWS Regions are geographical areas consisting of multiple Availability Zones,AWS operates regions all over the world, including North America, Europe, Asia, and more.
+
+## Edge locations
+- Edge Locations are smaller AWS data centers strategically distributed around the world. These locations are used for content delivery and caching, reducing latency for end users
+
+
+## Key points about AWS Availability Zones
+- Isolation and Redundancy;each Availability Zone is isolated from the others, both in terms of physical infrastructure and electrical distribution,this is designed to minimize the impact of failures and ensure that a problem in one Availability Zone does not affect others.
+
+- Geographic Distribution;Availability Zones are typically located in separate geographic areas within a region to minimise risk of natural disasters
+
+- Highly Connected;Availability Zones within a region are connected with low-latency, high-throughput networking, allowing for fast and reliable communication between them.
+
+- Scalability;users can use multiple Availability Zones to scale their applications horizontally, distributing workloads across different zones to handle increased traffic or demand.
+
+- Resilience and Redundancy;multiple AZs allows users to design and deploy applications that are resilient to failures. By distributing application components across different Availability Zones, organizations can achieve redundancy and ensure continuous availability even if one zone experiences issues.
+
+- Data Replication;customers can use AZs to implement data replication strategies. For example, they can use AWS services like Amazon RDS (Relational Database Service) with multi-AZ deployment for automatic failover and improved database availability.
