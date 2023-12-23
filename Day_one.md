@@ -72,7 +72,7 @@ In contrast, by running your application in the cloud, you can replicate an enti
 - Data Replication;customers can use AZs to implement data replication strategies. For example, they can use AWS services like Amazon RDS (Relational Database Service) with multi-AZ deployment for automatic failover and improved database availability.
 
 
-## AWS tools
+## AWS tools and services
 AWS provides a variety of tools and services to help users manage and optimize their cloud resources
 
 -   AWS Management Console:
