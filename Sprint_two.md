@@ -99,3 +99,27 @@
 
 -   Elastic Load Balancer Pricing:
     If you use Elastic Load Balancers (ELB) to distribute incoming traffic across multiple EC2 instances, there is a separate pricing model for ELB based on the type of load balancer (e.g., Application Load Balancer, Network Load Balancer).
+
+    ## Amazon EC2 Auto Scaling
+    - Allows you to automatically scale your Amazon Elastic Compute Cloud (EC2) instances up or down based on conditions you define.
+
+    ## Benefits of EC2 Auto Scaling
+    - Automatic Scaling: it adjusts the number of EC2 instances in your Auto Scaling group based on the defined conditions, such as demand or schedule. This ensures that you have the right amount of capacity to handle varying workloads without manual intervention.
+
+    - High Availability: By distributing your instances across multiple Availability Zones, EC2 Auto Scaling enhances the availability of your applications. In the event of an instance or Availability Zone failure.
+
+    - Cost Optimization: it helps optimize costs by dynamically adjusting the number of instances based on actual demand. 
+
+    - Ease of Management:simplifies the management of your EC2 instances. You can define scaling policies and let Auto Scaling take care of launching or terminating instances, reducing the manual effort required to respond to changing workloads.
+
+    - Integration with Load Balancing:it integrates with Elastic Load Balancing (ELB), allowing you to distribute incoming traffic across multiple instances.
+
+    - Predictive Scaling: With predictive scaling, you can use machine learning algorithms to forecast future demand based on historical data. This enables Auto Scaling to proactively add or remove instances, ensuring that you are prepared for anticipated changes in workload.
+
+    - Flexible Configuration: You can customize your Auto Scaling group by defining launch configurations or launch templates to specify the instance type, AMI, security groups, and other configuration details.
+
+    - Integration with CloudWatch Alarms:it integrates with Amazon CloudWatch, allowing you to set up alarms based on various metrics (e.g., CPU utilization, network traffic). These alarms trigger Auto Scaling actions, ensuring that your application can adapt to changing conditions in real-time.
+
+    - Rolling Updates: When updating instances in your Auto Scaling group, EC2 Auto Scaling supports rolling updates. This ensures that updates are applied gradually, minimizing downtime and maintaining application availability.
+
+    - Lifecycle Hooks: You can use lifecycle hooks to perform custom actions before instances are launched or terminated, providing more control over the scaling process.
