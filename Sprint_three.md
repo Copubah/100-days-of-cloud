@@ -14,3 +14,23 @@
 - Security and Compliance:it adheres to AWS security best practices, and you can implement secure configurations for your instances within the Auto Scaling group. This helps you maintain a secure and compliant environment for your applications.
 
 - Coordinated Updates: Auto Scaling facilitates rolling updates, allowing you to perform updates to your application without downtime.
+
+## Aws load balancing
+- AWS offers several load balancing solutions to distribute incoming application traffic across multiple targets, such as EC2 instances, containers, and IP addresses. These load balancers help enhance the availability and fault tolerance of your applications by distributing traffic evenly across multiple resources. 
+
+## Benefits of elastic load balancers
+1. High Availability:ELB enhances the availability of applications by distributing traffic across multiple targets (e.g., EC2 instances) within one or more Availability Zones
+
+2. Scalability:scales easily to handle varying levels of incoming traffic
+
+3. Fault Tolerance:automatically detects unhealthy targets and rerouting traffic to healthy ones
+
+4. Security:it supports SSL/TLS termination, offloading the SSL/TLS decryption process from backend servers to the load balancer
+
+5. Flexibility and Variety:AWS offers different types of load balancers (Classic, Application, and Network) to suit various application architectures and use cases.
+
+6. Ease of Use:ELB is a fully managed service, reducing the operational overhead for users and
+integrates seamlessly with other AWS services and can be easily configured using the AWS Management Console, CLI, or SDKs.
+    
+## Give an example of the uses for Elastic Load Balancing
+- Suppose you have an e-commerce web app with varying traffic and to ensure optimal performance, availability, and scalability, you decide to leverage Elastic Load Balancing.
